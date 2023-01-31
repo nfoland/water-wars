@@ -1,10 +1,7 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
 import csv
-from io import StringIO
 from collections import defaultdict
-
 
 def find_teams(file_path, number_rounds): #Goes through CSV finds all teams and sets up the data structure
     team_data = defaultdict(dict)
